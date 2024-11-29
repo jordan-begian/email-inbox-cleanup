@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch ./src/main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.8",
+    "@rxjs": "https://deno.land/x/rxjs@v1.0.2/mod.ts",
+    "@googleapis": "npm:googleapis@^144.0.0"
+  }
+}
